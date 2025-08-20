@@ -1,0 +1,26 @@
+""" Map leader to space ---------------------
+let mapleader=" "
+
+set scrolloff=10
+
+" Do incremental searching.
+set incsearch
+
+set showmode
+set relativenumber
+set number
+
+set clipboard+=unnamed
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+" Vim commands in project tree
+Plug 'preservim/nerdtree'
+" enable which key
+set which-key
+
