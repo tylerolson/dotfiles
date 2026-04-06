@@ -1,0 +1,3 @@
+#disable lig
+font-feature = -calt
+shell-integration-features = sudo
