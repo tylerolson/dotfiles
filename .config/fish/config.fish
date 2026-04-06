@@ -1,9 +1,15 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
+set -g fish_greeting
+
+if test -f /opt/homebrew/bin/brew
+    /opt/homebrew/bin/brew shellenv | source
 end
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if command -q go
+    fish_add_path (go env GOPATH)/bin
+end
 
-fish_add_path --path $HOME/go/bin
-
-starship init fish | source
+if status is-interactive
+    if command -q starship
+        starship init fish | source
+    end
+end

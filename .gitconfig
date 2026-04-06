@@ -1,3 +1,6 @@
+[user]
+	email = tolson519@gmail.com
+	name = Tyler Olson
 [core]
 	excludesfile = ~/.gitignore_global
 
