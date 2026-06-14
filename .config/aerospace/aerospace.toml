@@ -51,12 +51,12 @@ automatically-unhide-macos-hidden-apps = true
 #                 See:
 #                 https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-    inner.horizontal = 5
-    inner.vertical =   5
-    outer.left =       5
-    outer.bottom =     5
-    outer.top =        5
-    outer.right =      5
+    inner.horizontal = 2
+    inner.vertical =   2
+    outer.left =       0
+    outer.bottom =     0
+    outer.top =        0
+    outer.right =      0
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -122,9 +122,9 @@ automatically-unhide-macos-hidden-apps = true
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
     # alt-a = 'workspace A' # In your config, you can drop workspace bindings that you don't need
-    # alt-b = 'workspace B'
+    alt-b = 'workspace B'
     # alt-c = 'workspace C'
-    # alt-d = 'workspace D'
+    alt-d = 'workspace D'
     # alt-e = 'workspace E'
     # alt-f = 'workspace F'
     # alt-g = 'workspace G'
@@ -155,9 +155,9 @@ automatically-unhide-macos-hidden-apps = true
     alt-shift-8 = 'move-node-to-workspace 8'
     alt-shift-9 = 'move-node-to-workspace 9'
     # alt-shift-a = 'move-node-to-workspace A'
-    # alt-shift-b = 'move-node-to-workspace B'
+    alt-shift-b = 'move-node-to-workspace B'
     # alt-shift-c = 'move-node-to-workspace C'
-    # alt-shift-d = 'move-node-to-workspace D'
+    alt-shift-d = 'move-node-to-workspace D'
     # alt-shift-e = 'move-node-to-workspace E'
     # alt-shift-f = 'move-node-to-workspace F'
     # alt-shift-g = 'move-node-to-workspace G'
